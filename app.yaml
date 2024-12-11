@@ -1,0 +1,14 @@
+#runtime: python310  # Use the appropriate version of Python
+#entrypoint: streamlit run app.py  # Replace `app.py` with your file name if it's different
+
+#instance_class: F2  # You can use the default instance class, or scale up with larger classes
+#env_variables:
+  #STREAMLIT_SERVER_PORT: 8080  # The port to run Streamlit on GAE
+
+#handlers:
+#  - url: /
+#    script: auto  # Automatically routes to your Streamlit app
+
+runtime: custom
+env: flex
+
